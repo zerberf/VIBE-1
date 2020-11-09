@@ -54,7 +54,7 @@ def main(args):
     video_file = args.vid_file
 
     # ========= [Optional] download the youtube video ========= #
-    if video_file.startswith('https://www.youtube.com'):
+    if video_file.startswith('https://www.bilibili.com'):
         print(f'Donwloading YouTube video \"{video_file}\"')
         video_file = download_youtube_clip(video_file, '/tmp')
 
