@@ -73,7 +73,7 @@ class VIBE(nn.Module):
             add_linear=False,
             bidirectional=False,
             use_residual=True,
-            pretrained=osp.join(VIBE_DATA_DIR, 'spin_model_checkpoint.pth.tar'),
+            pretrained=osp.join(VIBE_DATA_DIR, 'vibe_model_wo_3dpw.pth.tar'),
     ):
 
         super(VIBE, self).__init__()
